@@ -1,1 +1,2 @@
 # 78k_various_asm_programs
+78kマイコンをアセンブリ言語で動かしてみました。
