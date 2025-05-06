@@ -3,6 +3,11 @@ P12  EQU  0FF0CH
 P13  EQU  0FF0DH
 WDTM  EQU  0FF48H
 
+VT  CSEG  AT  0H
+    DW  _main,_main
+OP1  CSEG  AT  80H
+    DW  0FEH
+C1  CSEG  AT  87H
 _main:
   MOVW  AX,#0FEFFH
   MOVW  SP,AX
