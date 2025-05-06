@@ -17,9 +17,9 @@ loop:
   CALL  !delay
   BR  $loop
 delay:
-  MOV  A,0FFH
+  MOV  A,#0FFH
 delay_loop1:
-  MOV  X,0FFH
+  MOV  X,#0FFH
 delay_loop2:
   NOP
   DEC  X
